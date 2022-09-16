@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: local('Myriad Pro Regular'), local('Myriad-Pro-Regular'),
+        url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff'),
+        url('MyriadPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+  font-family: 'Myriad Pro';
+  font-size: 80px;
+}
+  .logo--blue {
+    color: #4bcaff;
+  }
+.navbar {
+  background-color: #35444f;
+  width: 100%;
+  text-align: center;
+  margin-top: 45px;
+}
+  .navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Myriad Pro';
+    font-size: 24px;
+    padding: 26px 43px 21px;
+    text-decoration: none;
+  }
+    .navbar a:hover {
+      background: #222f3a;
+      border: 1px solid white;
+    }
+.sidebar {
+  position: fixed;
+  border: 1px solid #35444f;
+  margin-top: 51px;
+  width: 344px;
+}
+  .sidebar a {
+    display: block;
+    color: #485863;
+    text-align: left;
+    font-family: 'Myriad Pro';
+    font-size: 27px;
+    line-height: 2.96;
+    padding-left: 43px;
+    text-decoration: none;
+  }
+    .sidebar a:hover {
+      background: #dbdbdb;
+      padding-left: 69px;
+      color: #000000;
+    }
+.img-ramda {
+  padding: 73px 268px 73px 297px;
+  margin: 51px 3px 0 396px;
+  border: 1px solid #35444f;
+  text-align: center;
+}
+  .img-ramda img:hover {
+    transform: scale(1,1);
+ }
+.content {
+  margin: 50px 40px 51px 426px;
+  font-family: 'Myriad Pro';
+  font-size: 18px;
+  line-height: 1.33;
+  color: #2c2c2c;
+}
+.content p {
+  margin: 0 0 31px 0;
+}
+.footer {
+  padding: 21px 0;
+  background-color: rgba(99, 105, 110, 0.48);
+  width: 100%;
+}
+  .footer a {
+    display: inline;
+    color: #0c1927;
+    text-align: center;
+    font-family: 'Myriad Pro';
+    font-size: 28px;
+    margin-left: 44px;
+    text-decoration: none;
+  }
+    .footer a:hover {
+      color: #3181a6;
+      border-bottom: 2px solid #3181a6;
+    }
+    .footer p {
+      float: right;
+      font-family: 'Myriad Pro';
+      font-size: 24px;
+      margin: 0 34px;
+      padding: 0;
+    }
